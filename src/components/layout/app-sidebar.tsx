@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Bot, Book, Leaf, HeartPulse, PanelLeftClose } from 'lucide-react';
+import { Bot, Book, Leaf, Shield, PanelLeftClose } from 'lucide-react';
 import {
   Sidebar,
   SidebarHeader,
@@ -32,9 +32,9 @@ export function AppSidebar() {
     <Sidebar collapsible={isMobile ? 'offcanvas' : 'icon'} variant="sidebar">
       <SidebarHeader className="flex items-center justify-between p-2">
         <div className="flex items-center gap-2 overflow-hidden">
-          <HeartPulse className="h-8 w-8 shrink-0 text-primary" />
+          <Shield className="h-8 w-8 shrink-0 text-primary" />
           <span className="text-xl font-bold font-headline whitespace-nowrap">
-            MindEase
+            Defenders
           </span>
         </div>
         <Button

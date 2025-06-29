@@ -5,11 +5,11 @@ import { Toaster } from '@/components/ui/toaster';
 import { SidebarProvider, SidebarInset, SidebarTrigger } from '@/components/ui/sidebar';
 import { AppSidebar } from '@/components/layout/app-sidebar';
 import Link from 'next/link';
-import { HeartPulse } from 'lucide-react';
+import { Shield } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'MindEase',
-  description: 'A safe, supportive mental health chatbot platform.',
+  title: 'Defenders',
+  description: 'Your personal wellness companion.',
 };
 
 export default function RootLayout({
@@ -34,8 +34,8 @@ export default function RootLayout({
             <SidebarInset>
               <header className="sticky top-0 z-10 flex h-14 items-center justify-between gap-4 border-b bg-background px-4 md:hidden">
                 <Link href="/" className="flex items-center gap-2 font-semibold">
-                    <HeartPulse className="h-6 w-6 text-primary" />
-                    <span className="font-bold font-headline">MindEase</span>
+                    <Shield className="h-6 w-6 text-primary" />
+                    <span className="font-bold font-headline">Defenders</span>
                 </Link>
                 <SidebarTrigger />
               </header>

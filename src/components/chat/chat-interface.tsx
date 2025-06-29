@@ -15,7 +15,7 @@ export function ChatInterface() {
     {
       id: 'initial',
       role: 'assistant',
-      content: "Hello! I'm MindEase, your personal mental wellness assistant. How can I support you today?",
+      content: "Hello! I'm Defenders, your personal mental wellness assistant. How can I support you today?",
     },
   ]);
   const [input, setInput] = useState('');

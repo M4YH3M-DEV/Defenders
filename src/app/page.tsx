@@ -6,7 +6,7 @@ export default function Home() {
     <div className="flex flex-col h-[calc(100vh-8rem)]">
         <header className="mb-8">
             <h1 className="text-3xl font-bold font-headline tracking-tight text-foreground">
-                Welcome to MindEase
+                Welcome to Defenders
             </h1>
             <p className="text-muted-foreground mt-1">
                 Your safe space to talk. How are you feeling today?
